@@ -37,3 +37,13 @@ hr{
     border-radius: 1.5rem;
 }
 /* BEM naming convention  */
+
+/* Lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
