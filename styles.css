@@ -8,13 +8,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px  ;
+    margin: 0px;
 }
 
 hr {
     margin: 2rem 0rem;
 }
-
+/* Spaces */
+.margin-md{
+    margin:2rem;
+}
 /* Container */
 
 .container {
@@ -85,6 +88,7 @@ hr {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -114,16 +118,23 @@ hr {
 }
 
 /* Footer */
-.footer{
+.footer {
     background-color: var(--primary-color);
-    padding:2rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
-.footer .links{
-    color:white;
+
+.footer .links {
+    color: white;
 }
-.footer ul{
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
     padding-inline-start: 0px;
 }
